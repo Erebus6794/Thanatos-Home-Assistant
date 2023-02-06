@@ -1,0 +1,46 @@
+{"intents": [
+{"tag": "greetings",
+"patterns": ["hello", "hi", "hey", "good day", "greetings", "what's up?", "how's it going"],
+"responses": ["Hello!", "Hey!", "What can i do for you?"]
+},
+{"tag": "goodbye",
+"patterns": ["cya", "see you later", "goodbye", "i am leaving", "have a good day", "bye", "see ya"],
+"responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"]
+},
+{"tag": "age",
+"patterns": ["how old are you?", "what's your age?", "how old is Erebus?", "age?", "how old?"],
+"responses": ["My creator Erebus is 26 years old", "26"]
+},
+{"tag": "name",
+"patterns": ["what is your name?", "what should i call you?", "what's your name?", "who are you?", "can you tell me who you are?"],
+"responses": ["I'm Thanatos", "You can call me Thanatos", "I'm Thanatos the assistant of Erebus"]
+},
+{"tag": "shutdown",
+"patterns": ["shutdown", "turn off", "close program"],
+"responses": ["Shutting down now", "Powering down"]
+},
+{"tag": "crypto",
+"patterns": ["what crypto do i hold?", "do i have crypto?"],
+"responses": ["You hold Solana, Bitcoin, Bitgert and a number of different NFTs", "Sol, Brise as well as some NFTs "]
+},
+{"tag": "Appreciation",
+"patterns": ["thank you", "thanks"],
+"responses": ["your welcome", "my pleasure"]
+},
+{"tag": "Phone OS",
+"patterns": ["Whats the best phone?", "What phone would you recommend"],
+"responses": ["Android", "It would be Apple if Android didn't exist"]
+},
+{"tag": "jokes",
+"patterns": ["tell me a joke", "tell me something funny"],
+"responses": ["Why did the tomato turn red?\nBecause it saw the salad dressing!",
+  "I told my wife she was drawing her eyebrows too high.\nShe looked surprised.",
+  "Why don't scientists trust atoms?\nBecause they make up everything.",
+  "Why was the math book sad?\nBecause it had too many problems.",
+  "Did you hear about the Italian chef that died?\nHe pasta way."]
+},
+{"tag": "Upset",
+"patterns": ["im feeling sad", "can you cheer me up"],
+"responses": ["I'm sorry to hear that, How can i help?", "If you'd like i could tell you a joke"]
+}
+]}
